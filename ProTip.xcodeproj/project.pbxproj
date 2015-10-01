@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDB6F7481BBDFF7A00FD84FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB6F7471BBDFF7A00FD84FF /* AppDelegate.swift */; };
+		EDB6F74A1BBDFF7A00FD84FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB6F7491BBDFF7A00FD84FF /* ViewController.swift */; };
+		EDB6F74D1BBDFF7A00FD84FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB6F74B1BBDFF7A00FD84FF /* Main.storyboard */; };
+		EDB6F74F1BBDFF7A00FD84FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB6F74E1BBDFF7A00FD84FF /* Assets.xcassets */; };
+		EDB6F7521BBDFF7A00FD84FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB6F7501BBDFF7A00FD84FF /* LaunchScreen.storyboard */; };
+		EDB6F75D1BBDFF7A00FD84FF /* ProTipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB6F75C1BBDFF7A00FD84FF /* ProTipTests.swift */; };
+		EDB6F7681BBDFF7A00FD84FF /* ProTipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB6F7671BBDFF7A00FD84FF /* ProTipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDB6F7591BBDFF7A00FD84FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDB6F73C1BBDFF7A00FD84FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDB6F7431BBDFF7A00FD84FF;
+			remoteInfo = ProTip;
+		};
+		EDB6F7641BBDFF7A00FD84FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDB6F73C1BBDFF7A00FD84FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDB6F7431BBDFF7A00FD84FF;
+			remoteInfo = ProTip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDB6F7441BBDFF7A00FD84FF /* ProTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB6F7471BBDFF7A00FD84FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDB6F7491BBDFF7A00FD84FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDB6F74C1BBDFF7A00FD84FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDB6F74E1BBDFF7A00FD84FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDB6F7511BBDFF7A00FD84FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDB6F7531BBDFF7A00FD84FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB6F7581BBDFF7A00FD84FF /* ProTipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProTipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB6F75C1BBDFF7A00FD84FF /* ProTipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProTipTests.swift; sourceTree = "<group>"; };
+		EDB6F75E1BBDFF7A00FD84FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB6F7631BBDFF7A00FD84FF /* ProTipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProTipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB6F7671BBDFF7A00FD84FF /* ProTipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProTipUITests.swift; sourceTree = "<group>"; };
+		EDB6F7691BBDFF7A00FD84FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDB6F7411BBDFF7A00FD84FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB6F7551BBDFF7A00FD84FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB6F7601BBDFF7A00FD84FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDB6F73B1BBDFF7A00FD84FF = {
+			isa = PBXGroup;
+			children = (
+				EDB6F7461BBDFF7A00FD84FF /* ProTip */,
+				EDB6F75B1BBDFF7A00FD84FF /* ProTipTests */,
+				EDB6F7661BBDFF7A00FD84FF /* ProTipUITests */,
+				EDB6F7451BBDFF7A00FD84FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDB6F7451BBDFF7A00FD84FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDB6F7441BBDFF7A00FD84FF /* ProTip.app */,
+				EDB6F7581BBDFF7A00FD84FF /* ProTipTests.xctest */,
+				EDB6F7631BBDFF7A00FD84FF /* ProTipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDB6F7461BBDFF7A00FD84FF /* ProTip */ = {
+			isa = PBXGroup;
+			children = (
+				EDB6F7471BBDFF7A00FD84FF /* AppDelegate.swift */,
+				EDB6F7491BBDFF7A00FD84FF /* ViewController.swift */,
+				EDB6F74B1BBDFF7A00FD84FF /* Main.storyboard */,
+				EDB6F74E1BBDFF7A00FD84FF /* Assets.xcassets */,
+				EDB6F7501BBDFF7A00FD84FF /* LaunchScreen.storyboard */,
+				EDB6F7531BBDFF7A00FD84FF /* Info.plist */,
+			);
+			path = ProTip;
+			sourceTree = "<group>";
+		};
+		EDB6F75B1BBDFF7A00FD84FF /* ProTipTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDB6F75C1BBDFF7A00FD84FF /* ProTipTests.swift */,
+				EDB6F75E1BBDFF7A00FD84FF /* Info.plist */,
+			);
+			path = ProTipTests;
+			sourceTree = "<group>";
+		};
+		EDB6F7661BBDFF7A00FD84FF /* ProTipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDB6F7671BBDFF7A00FD84FF /* ProTipUITests.swift */,
+				EDB6F7691BBDFF7A00FD84FF /* Info.plist */,
+			);
+			path = ProTipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDB6F7431BBDFF7A00FD84FF /* ProTip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB6F76C1BBDFF7A00FD84FF /* Build configuration list for PBXNativeTarget "ProTip" */;
+			buildPhases = (
+				EDB6F7401BBDFF7A00FD84FF /* Sources */,
+				EDB6F7411BBDFF7A00FD84FF /* Frameworks */,
+				EDB6F7421BBDFF7A00FD84FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProTip;
+			productName = ProTip;
+			productReference = EDB6F7441BBDFF7A00FD84FF /* ProTip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDB6F7571BBDFF7A00FD84FF /* ProTipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB6F76F1BBDFF7A00FD84FF /* Build configuration list for PBXNativeTarget "ProTipTests" */;
+			buildPhases = (
+				EDB6F7541BBDFF7A00FD84FF /* Sources */,
+				EDB6F7551BBDFF7A00FD84FF /* Frameworks */,
+				EDB6F7561BBDFF7A00FD84FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDB6F75A1BBDFF7A00FD84FF /* PBXTargetDependency */,
+			);
+			name = ProTipTests;
+			productName = ProTipTests;
+			productReference = EDB6F7581BBDFF7A00FD84FF /* ProTipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDB6F7621BBDFF7A00FD84FF /* ProTipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB6F7721BBDFF7A00FD84FF /* Build configuration list for PBXNativeTarget "ProTipUITests" */;
+			buildPhases = (
+				EDB6F75F1BBDFF7A00FD84FF /* Sources */,
+				EDB6F7601BBDFF7A00FD84FF /* Frameworks */,
+				EDB6F7611BBDFF7A00FD84FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDB6F7651BBDFF7A00FD84FF /* PBXTargetDependency */,
+			);
+			name = ProTipUITests;
+			productName = ProTipUITests;
+			productReference = EDB6F7631BBDFF7A00FD84FF /* ProTipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDB6F73C1BBDFF7A00FD84FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Promeet Mansata";
+				TargetAttributes = {
+					EDB6F7431BBDFF7A00FD84FF = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					EDB6F7571BBDFF7A00FD84FF = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EDB6F7431BBDFF7A00FD84FF;
+					};
+					EDB6F7621BBDFF7A00FD84FF = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EDB6F7431BBDFF7A00FD84FF;
+					};
+				};
+			};
+			buildConfigurationList = EDB6F73F1BBDFF7A00FD84FF /* Build configuration list for PBXProject "ProTip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDB6F73B1BBDFF7A00FD84FF;
+			productRefGroup = EDB6F7451BBDFF7A00FD84FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDB6F7431BBDFF7A00FD84FF /* ProTip */,
+				EDB6F7571BBDFF7A00FD84FF /* ProTipTests */,
+				EDB6F7621BBDFF7A00FD84FF /* ProTipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDB6F7421BBDFF7A00FD84FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB6F7521BBDFF7A00FD84FF /* LaunchScreen.storyboard in Resources */,
+				EDB6F74F1BBDFF7A00FD84FF /* Assets.xcassets in Resources */,
+				EDB6F74D1BBDFF7A00FD84FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB6F7561BBDFF7A00FD84FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB6F7611BBDFF7A00FD84FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDB6F7401BBDFF7A00FD84FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB6F74A1BBDFF7A00FD84FF /* ViewController.swift in Sources */,
+				EDB6F7481BBDFF7A00FD84FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB6F7541BBDFF7A00FD84FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB6F75D1BBDFF7A00FD84FF /* ProTipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB6F75F1BBDFF7A00FD84FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB6F7681BBDFF7A00FD84FF /* ProTipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDB6F75A1BBDFF7A00FD84FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDB6F7431BBDFF7A00FD84FF /* ProTip */;
+			targetProxy = EDB6F7591BBDFF7A00FD84FF /* PBXContainerItemProxy */;
+		};
+		EDB6F7651BBDFF7A00FD84FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDB6F7431BBDFF7A00FD84FF /* ProTip */;
+			targetProxy = EDB6F7641BBDFF7A00FD84FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDB6F74B1BBDFF7A00FD84FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB6F74C1BBDFF7A00FD84FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDB6F7501BBDFF7A00FD84FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB6F7511BBDFF7A00FD84FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDB6F76A1BBDFF7A00FD84FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDB6F76B1BBDFF7A00FD84FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDB6F76D1BBDFF7A00FD84FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProTip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmansata.ProTip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDB6F76E1BBDFF7A00FD84FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProTip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmansata.ProTip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDB6F7701BBDFF7A00FD84FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProTipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmansata.ProTipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProTip.app/ProTip";
+			};
+			name = Debug;
+		};
+		EDB6F7711BBDFF7A00FD84FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProTipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmansata.ProTipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProTip.app/ProTip";
+			};
+			name = Release;
+		};
+		EDB6F7731BBDFF7A00FD84FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProTipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmansata.ProTipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ProTip;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EDB6F7741BBDFF7A00FD84FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProTipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmansata.ProTipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ProTip;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDB6F73F1BBDFF7A00FD84FF /* Build configuration list for PBXProject "ProTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB6F76A1BBDFF7A00FD84FF /* Debug */,
+				EDB6F76B1BBDFF7A00FD84FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB6F76C1BBDFF7A00FD84FF /* Build configuration list for PBXNativeTarget "ProTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB6F76D1BBDFF7A00FD84FF /* Debug */,
+				EDB6F76E1BBDFF7A00FD84FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDB6F76F1BBDFF7A00FD84FF /* Build configuration list for PBXNativeTarget "ProTipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB6F7701BBDFF7A00FD84FF /* Debug */,
+				EDB6F7711BBDFF7A00FD84FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDB6F7721BBDFF7A00FD84FF /* Build configuration list for PBXNativeTarget "ProTipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB6F7731BBDFF7A00FD84FF /* Debug */,
+				EDB6F7741BBDFF7A00FD84FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDB6F73C1BBDFF7A00FD84FF /* Project object */;
+}
