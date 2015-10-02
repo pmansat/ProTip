@@ -397,6 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProTip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pmansata.ProTip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,6 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProTip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pmansata.ProTip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -481,6 +483,7 @@
 				EDB6F76E1BBDFF7A00FD84FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDB6F76F1BBDFF7A00FD84FF /* Build configuration list for PBXNativeTarget "ProTipTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +492,7 @@
 				EDB6F7711BBDFF7A00FD84FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDB6F7721BBDFF7A00FD84FF /* Build configuration list for PBXNativeTarget "ProTipUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +501,7 @@
 				EDB6F7741BBDFF7A00FD84FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
